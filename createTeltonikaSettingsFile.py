@@ -47,7 +47,7 @@ def main():
 
   # # writing binary means \n are printed as LF (not CRLF on Windows)
   # with open(filename, "wb") as fd:
-  # fd.write(bytes(txt, 'UTF-8'))
+  #   fd.write(bytes(txt, 'UTF-8'))
 
   print(f"Teltonika Settings File '{filename}' Created", file=sys.stderr)
 
